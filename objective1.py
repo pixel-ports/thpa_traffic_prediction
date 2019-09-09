@@ -6,6 +6,7 @@ import json
 import ijson
 import sys
 
+#Just printing the list of arguments provided at the execution of the program
 print(len(sys.argv))
 print('Argument List: ', str(sys.argv))
 print(sys.argv[1])
