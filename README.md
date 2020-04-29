@@ -44,6 +44,10 @@ This directory contains Exploratory Data Analysis Jupyter notebooks. This is for
 Scripts for **predicting volume/speed** at **one location** at **one moment of time** with a 60-minutes granularity. The base models are selected out of the **state of the art** analysis, then the models are **trained** with the historical data collected in the previous steps (Data Preparation) and finally they are **fine-tuned** to be adapted to the use-case and requirements.
 
 ## data
-CSVs with the data used for creating the models.
+CSVs with the data used for creating and using the models.
+
+For acquiring the weather data, specific written consent must be gathered from the data owners. Reference: http://penteli.meteo.gr/stations/helexpo/  -- Terms of use: https://www.meteo.gr/terms.cfm
+
+For gathering City traffic data (only research purposes), https://www.trafficthess.imet.gr/ must be visited. Reference must be done to: http://opendata.imet.gr/about  - Check terms of use.
 
 ---
